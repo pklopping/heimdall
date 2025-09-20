@@ -2843,6 +2843,610 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Heimdall:JW_ESP32_DevKit_30Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESP32 ESP-32S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Heimdall:JW_ESP32_DevKit_30Pin"
+				(at 0.254 -24.384 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.amazon.com/dp/B07Q576VWZ"
+				(at 0.762 -22.098 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JW_ESP32_DevKit_30Pin_1_0"
+				(pin unspecified line
+					(at -19.05 16.51 0)
+					(length 2.54)
+					(name "Reset"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 13.97 0)
+					(length 2.54)
+					(name "D36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 11.43 0)
+					(length 2.54)
+					(name "D39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 8.89 0)
+					(length 2.54)
+					(name "D34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 6.35 0)
+					(length 2.54)
+					(name "D35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 3.81 0)
+					(length 2.54)
+					(name "D32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 1.27 0)
+					(length 2.54)
+					(name "D33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -1.27 0)
+					(length 2.54)
+					(name "D25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -3.81 0)
+					(length 2.54)
+					(name "D26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -6.35 0)
+					(length 2.54)
+					(name "D27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -8.89 0)
+					(length 2.54)
+					(name "D14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -11.43 0)
+					(length 2.54)
+					(name "D12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -13.97 0)
+					(length 2.54)
+					(name "D13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -16.51 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -19.05 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 16.51 180)
+					(length 2.54)
+					(name "D23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 13.97 180)
+					(length 2.54)
+					(name "D22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 11.43 180)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 8.89 180)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 6.35 180)
+					(length 2.54)
+					(name "D21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 3.81 180)
+					(length 2.54)
+					(name "D19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 1.27 180)
+					(length 2.54)
+					(name "D18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 -1.27 180)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 -3.81 180)
+					(length 2.54)
+					(name "D17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 -6.35 180)
+					(length 2.54)
+					(name "D16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 -8.89 180)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 -11.43 180)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 -13.97 180)
+					(length 2.54)
+					(name "D15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 -16.51 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 21.59 -19.05 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "JW_ESP32_DevKit_30Pin_1_1"
+				(rectangle
+					(start -16.51 17.78)
+					(end 19.05 -20.32)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Heimdall:Relay_HJR-3FF-S-Z-5VDC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9224,7 +9828,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "Tamper Switch"
 			(at 179.832 146.3802 90)
 			(effects
 				(font
@@ -13278,66 +13882,6 @@
 		)
 	)
 	(symbol
-		(lib_id "heimdall_insideboard-rescue:ESP32_Dev_Board_30Pin-Javawizard_Common_Schematic_Symbols-heimdall_insideboard-rescue")
-		(at 132.08 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060f8483a")
-		(property "Reference" "U3"
-			(at 132.08 73.279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESP32_Dev_Board_30Pin"
-			(at 132.08 75.5904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project ""
-				(path "/b71a4c50-f01b-4584-9790-07fd993db6c1"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 69.85 25.4 0)
 		(unit 1)
@@ -14409,6 +14953,158 @@
 			(project ""
 				(path "/b71a4c50-f01b-4584-9790-07fd993db6c1"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Heimdall:JW_ESP32_DevKit_30Pin")
+		(at 130.81 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dee3bd9-9717-4846-a5c2-df14f4a8ead0")
+		(property "Reference" "U3"
+			(at 132.08 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Heimdall:JW_ESP32_DevKit_30Pin"
+			(at 130.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.amazon.com/dp/B07Q576VWZ"
+			(at 130.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "19"
+			(uuid "8b86a2f6-295b-4881-be94-e31720d90bc3")
+		)
+		(pin "18"
+			(uuid "2b32eb06-d9a6-4539-b255-05a6a3b90299")
+		)
+		(pin "20"
+			(uuid "46e47fdc-1bde-4291-9452-3249c9960350")
+		)
+		(pin "17"
+			(uuid "3e6de1f3-225e-4ed2-b8b9-4c0966605581")
+		)
+		(pin "16"
+			(uuid "36db2986-42b9-4bf3-8d22-65d1afbd3955")
+		)
+		(pin "23"
+			(uuid "9c90f729-786d-4c16-aa72-d54fdcae17f0")
+		)
+		(pin "22"
+			(uuid "af8defb4-37d6-488a-ab44-981ceba3a87b")
+		)
+		(pin "21"
+			(uuid "b70c789c-6394-42a4-9ffe-456fa30501c8")
+		)
+		(pin "3"
+			(uuid "a90e68df-a875-4219-8270-b147c01d7327")
+		)
+		(pin "25"
+			(uuid "3ec5a15e-5eb0-4437-b8df-95fe5454d7fc")
+		)
+		(pin "7"
+			(uuid "fb6060b3-32c3-4bcf-a4e3-f8183e88a45a")
+		)
+		(pin "15"
+			(uuid "8ab69b49-2776-4200-b7c0-ac3a0b66ebc3")
+		)
+		(pin "28"
+			(uuid "1bea502e-9fd3-4eda-b149-82f723299004")
+		)
+		(pin "30"
+			(uuid "254b577f-29d7-4379-93af-637ccdb0db40")
+		)
+		(pin "14"
+			(uuid "06751f8b-e53b-4651-be24-cc122d0939c1")
+		)
+		(pin "29"
+			(uuid "2279e13d-5e90-4fb0-933d-e408b4e89183")
+		)
+		(pin "13"
+			(uuid "772db604-860d-44a6-9629-a1bec01a8f65")
+		)
+		(pin "12"
+			(uuid "73452049-9785-48e0-9a57-8f597bf93131")
+		)
+		(pin "26"
+			(uuid "62b1ff0d-39d2-4025-bc87-4497b12265fd")
+		)
+		(pin "11"
+			(uuid "a08eb8a9-4dd1-4170-8f60-34dba1c6242c")
+		)
+		(pin "10"
+			(uuid "eaa7d2b3-22f1-4b1a-b690-5d3ea4189e0c")
+		)
+		(pin "6"
+			(uuid "15fd6e5e-9e23-4b7f-a6fb-cfc6d337a916")
+		)
+		(pin "24"
+			(uuid "93c4db16-b9a5-4074-a9c2-5cfe58f994bf")
+		)
+		(pin "5"
+			(uuid "6df5dbe3-79d1-45f4-aaa9-d42cc3643462")
+		)
+		(pin "27"
+			(uuid "848ae85c-dd43-4748-b7be-6c4beae60c79")
+		)
+		(pin "9"
+			(uuid "5ac47df0-b248-4442-b5ce-71baa6d6d7f0")
+		)
+		(pin "8"
+			(uuid "a9b9b32a-bc5f-42cb-96c1-d35c4b842d78")
+		)
+		(pin "1"
+			(uuid "084240df-0438-4cb6-b81e-629993b603e0")
+		)
+		(pin "4"
+			(uuid "ab94f751-a899-4995-b404-870173b5ad6f")
+		)
+		(pin "2"
+			(uuid "cc1f2cc2-a550-4a0e-83ea-2c50443f0986")
+		)
+		(instances
+			(project ""
+				(path "/b71a4c50-f01b-4584-9790-07fd993db6c1"
+					(reference "U3")
 					(unit 1)
 				)
 			)

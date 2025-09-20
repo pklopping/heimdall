@@ -450,7 +450,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Heimdall"
+    ],
     "pinned_symbol_libs": [
       "Heimdall",
       "heimdall_insideboard-rescue"
