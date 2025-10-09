@@ -455,7 +455,8 @@
     ],
     "pinned_symbol_libs": [
       "Heimdall",
-      "heimdall_insideboard-rescue"
+      "heimdall_insideboard-rescue",
+      "Molex PicoBlade"
     ]
   },
   "meta": {
