@@ -27,6 +27,7 @@
 #include <Arduino.h>
 #include <SPI.h>
 #include "mfrc630.h"
+#include <FastLED.h>
 
 long int reads = 0;
 long int no_reads = 0;
@@ -36,6 +37,10 @@ long int total_bad = 0;
 
 // Pin to select the hardware, the NSS pin.
 #define CHIP_SELECT 10
+#define BEEPER_PIN 33
+#define LED_PIN 31
+#define NUM_LEDS 1
+CRGB leds[NUM_LEDS];
 // Pins MOSI, MISO and SCK are connected to the default pins, and are manipulated through the SPI object.
 // By default that means MOSI=11, MISO=12, SCK=13.
 
@@ -116,7 +121,12 @@ void mfrc630_MF_example_dump_arduino() {
         total_no += no_reads;
         reads++;
         Serial.printf("%d in %d bad in %d missed %f\n",1, bad_reads, no_reads, (double)1 / ((double)bad_reads + (double)no_reads));
-        tone(33, 2000, 50);
+        leds[0] = CRGB::Green;
+        FastLED.show();
+        tone(BEEPER_PIN, 2000, 125);
+        delay(125);
+        leds[0] = CRGB::Blue;
+        FastLED.show();
         bad_reads = 0;
         no_reads = 0;
       } else {
@@ -127,6 +137,13 @@ void mfrc630_MF_example_dump_arduino() {
       // Serial.print("Could not determine UID, perhaps some cards don't play");
       // Serial.print(" well with the other cards? Or too many collisions?\n");
       bad_reads++;
+      leds[0] = CRGB::Red;
+      FastLED.show();
+      tone(BEEPER_PIN, 1500, 125);
+      delay(125);
+      leds[0] = CRGB::Blue;
+      FastLED.show();
+
     }
   } else {
     // Serial.print("No answer to REQA, no cards?\n");
@@ -135,9 +152,19 @@ void mfrc630_MF_example_dump_arduino() {
 }
 
 void setup(){
-  pinMode(33, OUTPUT);
+  pinMode(BEEPER_PIN, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
+
+  FastLED.addLeds<WS2812, LED_PIN, GRB>(leds, NUM_LEDS);
+  leds[0] = CRGB::Yellow;
+  FastLED.show();
+
   Serial.begin(9600);
   delay(1000);
+
+  leds[0] = CRGB::Blue;
+  FastLED.show();
+
   
   MFRC630_PRINTF("Debug enabled - starting CLRC663 test\n");
   
