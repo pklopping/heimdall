@@ -451,7 +451,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "Heimdall"
+      "Heimdall",
+      "Temp",
+      "COTS",
+      "Heimdall COTS"
     ],
     "pinned_symbol_libs": [
       "Heimdall",
