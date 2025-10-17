@@ -73,6 +73,8 @@ fp-info-cache
 ~*.lck
 \#auto_saved_files#
 
+*3DXService.log
+
 # Netlist files (exported from Eeschema)
 *.net
 
