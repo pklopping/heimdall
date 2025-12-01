@@ -16495,7 +16495,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "3.3V"
 			(at 237.49 210.82 0)
 			(effects
 				(font
