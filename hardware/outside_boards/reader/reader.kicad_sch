@@ -12871,7 +12871,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "Reset"
 			(at 332.74 166.5224 0)
 			(effects
 				(font
