@@ -10327,7 +10327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
+		(property "Footprint" "Heimdall COTS:L_TDK_VLS6045EX_VLS6045AF"
 			(at 72.39 31.75 0)
 			(effects
 				(font
