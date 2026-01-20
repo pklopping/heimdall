@@ -165,7 +165,7 @@
 		(uuid "23482552-a295-4a06-8d6a-5a94b19eab01")
 	)
 	(embedded_fonts no)
-	(model "C:/git/heimdall/hardware/shared/cots/VLS6045EX-3R3N.stp"
+	(model "VLS6045EX-3R3N.stp"
 		(offset
 			(xyz 0 0 2.3)
 		)
