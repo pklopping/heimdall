@@ -10589,6 +10589,10 @@
 		(uuid "513d8d46-2287-47a0-a103-2658a2914c41")
 	)
 	(no_connect
+		(at 55.88 135.89)
+		(uuid "5192ead7-bd11-4663-87e2-0915e55ae9a0")
+	)
+	(no_connect
 		(at 238.76 119.38)
 		(uuid "68888046-9805-4819-81fd-535ba32c1804")
 	)
@@ -10691,10 +10695,6 @@
 	(no_connect
 		(at 238.76 111.76)
 		(uuid "f5917fcc-da5c-4791-a8cf-73498031ebab")
-	)
-	(no_connect
-		(at 55.88 156.21)
-		(uuid "f81d2c75-848a-4bfe-abdd-8ef620e98999")
 	)
 	(wire
 		(pts
@@ -16702,28 +16702,6 @@
 			)
 		)
 	)
-	(global_label "SCK"
-		(shape input)
-		(at 55.88 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f2dbf59-7ef5-4ceb-ae4c-aa464bf3eac2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.7995 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TamperSWuC"
 		(shape input)
 		(at 99.06 248.92 180)
@@ -17067,6 +17045,28 @@
 		(uuid "89b8d689-fe68-41df-a436-ea500be7b027")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.6073 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 55.88 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f1dd221-fe85-47d0-8e64-23004a772c6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.7995 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
