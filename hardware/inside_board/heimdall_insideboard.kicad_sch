@@ -10701,8 +10701,8 @@
 		(uuid "36d259b5-c0e6-49bc-b310-0b84ceeec04a")
 	)
 	(no_connect
-		(at 81.28 123.19)
-		(uuid "39de5034-17b1-46cf-b50c-5d4e07532533")
+		(at 81.28 110.49)
+		(uuid "42f8a1ca-06a5-4d46-bd53-24a6bd4f7f66")
 	)
 	(no_connect
 		(at 81.28 135.89)
@@ -16674,28 +16674,6 @@
 			)
 		)
 	)
-	(global_label "Beeper 3.3v"
-		(shape input)
-		(at 81.28 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3fa18035-5a81-4714-873a-6788001f0ad2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.041 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Relay1Trigger"
 		(shape input)
 		(at 273.05 58.42 180)
@@ -16885,6 +16863,28 @@
 		(uuid "640408a5-4848-49fd-a047-0063f0f81c07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.808 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Beeper 3.3v"
+		(shape input)
+		(at 81.28 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65cc3903-233c-47fa-9f3f-2c98024127c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.041 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
